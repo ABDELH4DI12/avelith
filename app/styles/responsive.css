@@ -1,0 +1,240 @@
+@media (max-width: 1100px) {
+  .site-header {
+    grid-template-columns: 1fr auto;
+  }
+  .main-nav {
+    display: none;
+  }
+  .hero-title {
+    font-size: 12.7vw;
+  }
+  .hero-bottom {
+    margin-left: 28%;
+  }
+  .intro {
+    grid-template-columns: 0.3fr 1.7fr;
+  }
+  .intro-note {
+    grid-column: 2;
+  }
+  .chapter-sticky {
+    grid-template-columns: 34vw 1fr;
+  }
+  .chapter-copy {
+    padding-left: 26px;
+    padding-right: 30px;
+  }
+  .case-card {
+    width: 58vw;
+  }
+  .studio-inner {
+    grid-template-columns: 1fr;
+  }
+  .studio-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: end;
+  }
+  .studio-aside > p {
+    margin: 0;
+  }
+  .site-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-nav {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .section-shell,
+  .hero-copy {
+    width: min(100% - 30px, 1500px);
+  }
+  .site-header {
+    height: 66px;
+    padding: 0 15px;
+  }
+  .brand-mark {
+    width: 26px;
+  }
+  .brand-word {
+    font-size: 14px;
+  }
+  .menu-project span {
+    display: none;
+  }
+  .hero {
+    padding: 104px 15px 0;
+  }
+  .hero-frame {
+    inset: 10px;
+  }
+  .hero-meta {
+    display: none;
+  }
+  .hero-title {
+    font-size: 17.6vw;
+    line-height: 0.84;
+  }
+  .title-line.italic {
+    padding-left: 7vw;
+  }
+  .title-line.block > span {
+    width: auto;
+    display: inline-block;
+  }
+  .hero-bottom {
+    grid-template-columns: 1fr;
+    margin: 38px 0 0;
+    padding-bottom: 52px;
+  }
+  .hero-bottom p {
+    font-size: 13px;
+  }
+  .hero-ticker {
+    margin-inline: -15px;
+  }
+  .intro {
+    padding: 95px 0;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .intro-note {
+    grid-column: auto;
+  }
+  .intro-copy h2 {
+    font-size: 49px;
+  }
+  .service-chapter {
+    height: auto;
+  }
+  .chapter-sticky {
+    position: relative;
+    height: auto;
+    display: block;
+  }
+  .chapter-copy {
+    padding: 90px 15px 42px;
+    border-right: 0;
+    border-bottom: 1px solid currentColor;
+  }
+  .chapter-copy h2 {
+    font-size: 64px;
+    margin: 48px 0 24px;
+  }
+  .chapter-copy > p {
+    font-size: 13px;
+  }
+  .deliverables {
+    margin-top: 34px;
+  }
+  .project-viewport {
+    overflow: visible;
+  }
+  .project-rail {
+    height: auto;
+    width: auto;
+    display: grid;
+    padding: 28px 15px 86px;
+    gap: 34px;
+  }
+  .case-card {
+    width: 100%;
+  }
+  .case-visual {
+    aspect-ratio: 4/3;
+  }
+  .reference-caption strong {
+    font-size: 27px;
+  }
+  .reference-caption span {
+    font-size: 6px;
+  }
+  .case-meta {
+    font-size: 7px;
+  }
+  .process {
+    padding: 105px 0;
+  }
+  .process-head {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .process-head h2 {
+    font-size: 51px;
+  }
+  .process-list {
+    margin-top: 56px;
+  }
+  .process-list article {
+    grid-template-columns: 38px 1fr auto;
+    gap: 14px;
+    padding: 26px 0;
+  }
+  .process-list p {
+    grid-column: 2/4;
+    margin: 0;
+  }
+  .process-list h3 {
+    font-size: 31px;
+  }
+  .studio {
+    padding: 105px 0;
+  }
+  .studio-inner {
+    min-height: auto;
+  }
+  .studio-copy h2 {
+    font-size: 57px;
+  }
+  .studio-aside {
+    grid-template-columns: 1fr;
+    margin-top: 66px;
+  }
+  .studio-aside > p {
+    font-size: 22px;
+  }
+  .contact {
+    min-height: 82vh;
+  }
+  .contact-inner {
+    padding: 95px 0;
+  }
+  .contact h2 {
+    font-size: 21vw;
+  }
+  .contact-bottom {
+    display: grid;
+    gap: 42px;
+    margin-top: 66px;
+  }
+  .contact-mail {
+    font-size: 26px;
+  }
+  .site-footer {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 38px 15px;
+  }
+  .footer-end {
+    justify-self: start;
+  }
+  .preloader {
+    padding: 28px 20px;
+  }
+  .preloader-count {
+    font-size: 48px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: smooth;
+  }
+  .preloader {
+    display: none;
+  }
+  .ticker-track {
+    transform: none !important;
+  }
+}

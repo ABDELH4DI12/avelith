@@ -1,0 +1,115 @@
+export const services = [
+  {
+    id: "branding",
+    theme: "theme-brand",
+    number: "01 / 07",
+    label: "BRAND SYSTEMS",
+    title: "Branding",
+    emphasis: "from idea to identity.",
+    description:
+      "We turn strategy into a complete visual world: identity, packaging, typography, art direction and launch assets that feel intentional at every touchpoint.",
+    deliverables: [
+      "Strategy",
+      "Naming",
+      "Identity",
+      "Typography",
+      "Guidelines",
+    ],
+  },
+  {
+    id: "websites",
+    theme: "theme-web",
+    number: "02 / 07",
+    label: "DIGITAL EXPERIENCES",
+    title: "Websites",
+    emphasis: "from idea to interface.",
+    description:
+      "We turn ideas into digital experiences people want to explore. Strategy, UX, UI and front-end thinking come together as one clear, memorable experience.",
+    deliverables: [
+      "UX Strategy",
+      "UI Design",
+      "Creative Dev",
+      "CMS",
+      "Interaction",
+    ],
+  },
+  {
+    id: "motion",
+    theme: "theme-motion",
+    number: "03 / 07",
+    label: "MOTION SYSTEMS",
+    title: "Motion",
+    emphasis: "that brings brands to life.",
+    description:
+      "Movement gives a brand energy. We create 2D/3D motion, launch films, title systems, loops and social sequences designed to feel unmistakably yours.",
+    deliverables: [
+      "Direction",
+      "2D / 3D",
+      "Titles",
+      "Launch Films",
+      "Brand Motion",
+    ],
+  },
+  {
+    id: "social",
+    theme: "theme-social",
+    number: "04 / 07",
+    label: "SOCIAL + PERFORMANCE",
+    title: "Social",
+    emphasis: "that builds momentum.",
+    description:
+      "We build a recognizable content system, then turn it into campaign assets for feed, stories, reels and paid media — consistent enough to be remembered, flexible enough to keep moving.",
+    deliverables: ["Strategy", "Content", "Campaigns", "Paid Ads", "Reporting"],
+  },
+  {
+    id: "interior",
+    theme: "theme-interior",
+    number: "05 / 07",
+    label: "INTERIOR DESIGN",
+    title: "Interior Design",
+    emphasis: "spaces with atmosphere.",
+    description:
+      "Interior concepts, material palettes, furniture, lighting and photoreal visualization — focused on how the space should feel, not only how it should look.",
+    deliverables: [
+      "Concept",
+      "Materials",
+      "Furniture",
+      "Lighting",
+      "3D Visualization",
+    ],
+  },
+  {
+    id: "exterior",
+    theme: "theme-exterior",
+    number: "06 / 07",
+    label: "EXTERIOR DESIGN",
+    title: "Exterior Design",
+    emphasis: "architecture with presence.",
+    description:
+      "Façade concepts, material studies, landscape atmosphere, daylight and night lighting — presented through high-end architectural visualization.",
+    deliverables: [
+      "Façades",
+      "Materials",
+      "Landscape",
+      "Lighting",
+      "3D Visualization",
+    ],
+  },
+  {
+    id: "graphic",
+    theme: "theme-graphic",
+    number: "07 / 07",
+    label: "GRAPHIC DESIGN",
+    title: "Graphic Design",
+    emphasis: "ideas made visible.",
+    description:
+      "Posters, campaigns, editorial systems, presentations and print pieces built with strong composition, typography and art direction — not template decoration.",
+    deliverables: [
+      "Campaigns",
+      "Posters",
+      "Editorial",
+      "Print",
+      "Presentations",
+    ],
+  },
+];

@@ -1,0 +1,474 @@
+/* V6 — brand mark + capability studies */
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  stroke-width: 1.7;
+  overflow: visible;
+}
+.brand-mark .logo-solid {
+  fill: currentColor;
+  stroke: none;
+}
+.brand-mark .logo-line,
+.brand-mark .logo-arc {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.brand-mark .logo-dot {
+  fill: var(--gold);
+  stroke: none;
+}
+.preloader-mark svg {
+  overflow: visible;
+  stroke: none;
+  fill: none;
+}
+.preloader-mark .logo-solid {
+  fill: var(--cream);
+}
+.preloader-mark .logo-line,
+.preloader-mark .logo-arc {
+  fill: none;
+  stroke: var(--cream);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+}
+.preloader-mark .logo-dot {
+  fill: var(--gold);
+}
+.brand-word {
+  margin-left: 2px;
+}
+
+.study-visual {
+  background: #111;
+}
+.study-visual .reference-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.92) contrast(1.02);
+}
+.study-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.02) 48%,
+    rgba(0, 0, 0, 0.66) 100%
+  );
+  pointer-events: none;
+}
+.study-badge {
+  position: absolute;
+  right: 18px;
+  top: 16px;
+  font-size: 7px;
+  line-height: 1;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #fff;
+  background: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(5px);
+}
+.study-caption {
+  position: absolute;
+  left: 22px;
+  right: 22px;
+  bottom: 20px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 16px;
+  align-items: end;
+  color: #fff;
+}
+.study-caption > span {
+  font: 500 11px/1 var(--sans);
+  letter-spacing: 0.12em;
+  opacity: 0.72;
+}
+.study-caption strong {
+  display: block;
+  font: 500 clamp(29px, 2.8vw, 45px)/0.95 var(--serif);
+  letter-spacing: -0.025em;
+}
+.study-caption p {
+  margin: 7px 0 0;
+  font-size: 8px;
+  line-height: 1.45;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.branding-study .case-visual {
+  background: var(--cream);
+  padding: 16px;
+}
+.branding-study .reference-image {
+  border: 1px solid rgba(212, 175, 55, 0.34);
+}
+.branding-study:nth-child(2n) .reference-image {
+  object-position: center 55%;
+}
+.branding-study .study-overlay {
+  inset: 16px;
+  background: linear-gradient(
+    180deg,
+    transparent 52%,
+    rgba(15, 14, 13, 0.68) 100%
+  );
+}
+.branding-study .reference-index {
+  left: 32px;
+  top: 32px;
+}
+.branding-study .study-badge {
+  right: 32px;
+  top: 32px;
+}
+.branding-study .study-caption {
+  left: 38px;
+  right: 38px;
+  bottom: 36px;
+}
+
+.graphic-study .case-visual {
+  background: #111;
+  padding: 18px;
+}
+.graphic-study .reference-image {
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.graphic-study:nth-child(1) .reference-image,
+.graphic-study:nth-child(2) .reference-image {
+  object-position: center 42%;
+}
+.graphic-study:nth-child(3) .reference-image,
+.graphic-study:nth-child(4) .reference-image {
+  object-position: center;
+}
+.graphic-study .case-visual:before {
+  content: "GRAPHIC / A.V.";
+  position: absolute;
+  z-index: 3;
+  left: 18px;
+  bottom: 0;
+  transform: translateY(50%);
+  background: var(--gold);
+  color: var(--charcoal);
+  padding: 8px 12px;
+  font-size: 7px;
+  letter-spacing: 0.18em;
+}
+.graphic-study .study-overlay {
+  inset: 18px;
+  background: linear-gradient(
+    180deg,
+    transparent 45%,
+    rgba(0, 0, 0, 0.64) 100%
+  );
+}
+.graphic-study .reference-index {
+  left: 34px;
+  top: 34px;
+}
+.graphic-study .study-badge {
+  right: 34px;
+  top: 34px;
+}
+.graphic-study .study-caption {
+  left: 40px;
+  right: 40px;
+  bottom: 42px;
+}
+
+/* Website concept cards — original Avelith concept demonstrations */
+.web-concept {
+  background: #0d0f0f;
+  color: #fff;
+  padding: 16px;
+}
+.browser-chrome {
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 0 12px;
+  background: rgba(255, 255, 255, 0.035);
+  position: relative;
+  z-index: 4;
+}
+.browser-chrome > span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.38);
+}
+.browser-chrome small {
+  margin-left: auto;
+  font-size: 6px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.52);
+}
+.web-concept-stage {
+  height: calc(100% - 38px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  position: relative;
+  overflow: hidden;
+}
+.wc-copy {
+  position: absolute;
+  z-index: 4;
+  left: 7%;
+  bottom: 8%;
+  max-width: 58%;
+}
+.wc-copy small {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 7px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.72;
+}
+.wc-copy b {
+  display: block;
+  font: 500 clamp(38px, 4vw, 62px)/0.83 var(--serif);
+  letter-spacing: -0.055em;
+}
+.wc-copy .concept-cta {
+  display: inline-block;
+  margin-top: 18px;
+  background: transparent;
+  color: inherit;
+  border: 1px solid currentColor;
+  padding: 9px 12px;
+  font: 600 7px/1 var(--sans);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.web-concept .reference-index {
+  left: 34px;
+  top: 68px;
+  z-index: 8;
+}
+.web-concept .study-badge {
+  right: 34px;
+  top: 68px;
+  z-index: 8;
+}
+
+/* The photographs stay separate from the real, selectable interface text. */
+.web-concept-stage {
+  background: #10191b;
+  color: #fff;
+}
+.web-concept-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 700ms ease;
+}
+.web-concept-card:hover .web-concept-image {
+  transform: scale(1.045);
+}
+.web-concept-stage::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    90deg,
+    rgba(5, 12, 15, 0.56),
+    rgba(5, 12, 15, 0.12) 64%,
+    transparent
+  );
+}
+.web-concept--commerce .web-concept-stage::after {
+  background: linear-gradient(
+    90deg,
+    rgba(19, 12, 8, 0.56),
+    rgba(19, 12, 8, 0.1) 60%,
+    transparent
+  );
+}
+.web-concept--portfolio .web-concept-stage::after {
+  background: linear-gradient(90deg, rgba(4, 40, 46, 0.42), transparent 63%);
+}
+/* Motion cards */
+.motion-visual {
+  background: #070909;
+}
+.motion-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.04) contrast(1.04);
+}
+.motion-vignette {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.06) 35%,
+    rgba(0, 0, 0, 0.72) 100%
+  );
+  pointer-events: none;
+}
+.motion-caption {
+  position: absolute;
+  left: 22px;
+  bottom: 20px;
+  color: #fff;
+  z-index: 3;
+}
+.motion-caption strong {
+  display: block;
+  font: 500 clamp(31px, 3vw, 48px)/0.9 var(--serif);
+  letter-spacing: -0.035em;
+}
+.motion-caption p {
+  margin: 8px 0 0;
+  font-size: 8px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+}
+.motion-visual .reference-index {
+  z-index: 4;
+}
+.motion-visual .study-badge {
+  z-index: 4;
+}
+.motion-study:hover video {
+  filter: saturate(1.16) contrast(1.07);
+}
+
+/* Social / spatial studies */
+.social-study .reference-image {
+  object-position: center;
+}
+.interior-study .reference-image,
+.exterior-study .reference-image {
+  filter: saturate(0.86) contrast(1.02);
+}
+
+@media (max-width: 760px) {
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+  }
+  .study-caption {
+    left: 18px;
+    right: 18px;
+    bottom: 16px;
+    grid-template-columns: 24px 1fr;
+  }
+  .study-caption strong {
+    font-size: 29px;
+  }
+  .study-badge {
+    right: 12px;
+    top: 12px;
+    font-size: 6px;
+  }
+  .reference-index {
+    left: 12px;
+    top: 12px;
+  }
+  .branding-study .case-visual,
+  .graphic-study .case-visual,
+  .web-concept {
+    padding: 10px;
+  }
+  .branding-study .study-overlay,
+  .graphic-study .study-overlay {
+    inset: 10px;
+  }
+  .branding-study .reference-index,
+  .graphic-study .reference-index {
+    left: 22px;
+    top: 22px;
+  }
+  .branding-study .study-badge,
+  .graphic-study .study-badge {
+    right: 22px;
+    top: 22px;
+  }
+  .branding-study .study-caption,
+  .graphic-study .study-caption {
+    left: 26px;
+    right: 26px;
+    bottom: 27px;
+  }
+  .wc-copy {
+    left: 6%;
+    bottom: 7%;
+    max-width: 70%;
+  }
+  .wc-copy b {
+    font-size: 38px;
+  }
+  .wc-copy .concept-cta {
+    font-size: 6px;
+    padding: 8px 10px;
+  }
+  .web-concept .reference-index {
+    left: 24px;
+    top: 58px;
+  }
+  .web-concept .study-badge {
+    right: 24px;
+    top: 58px;
+  }
+}
+
+/* V6.1 exact brandboard mark */
+.brand-mark {
+  display: none !important;
+}
+.brand-mark-image {
+  display: block;
+  width: 42px;
+  height: 34px;
+  object-fit: contain;
+  object-position: center;
+  flex: none;
+}
+.preloader-mark img {
+  display: block;
+  width: 96px;
+  height: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.96;
+}
+.site-header .brand {
+  gap: 11px;
+}
+.graphic-study:first-child .reference-image {
+  object-position: center;
+}
+@media (max-width: 760px) {
+  .brand-mark-image {
+    width: 36px;
+    height: 29px;
+  }
+  .preloader-mark img {
+    width: 82px;
+  }
+}
