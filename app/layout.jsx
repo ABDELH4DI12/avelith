@@ -7,7 +7,7 @@ import "./styles/editorial.css";
 export const metadata = {
   title: "Avelith Studio — Ideas impossible to ignore.",
   description:
-    "Avelith Studio — branding, websites, motion, social media, interior design, exterior design and graphic design.",
+    "Avelith is a multidisciplinary creative studio in Casablanca shaping brands, websites, motion, campaigns, graphics and spaces worldwide.",
 };
 
 export const viewport = {

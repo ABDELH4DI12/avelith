@@ -1,10 +1,6 @@
 import { galleryImage, galleryImageSet } from "../../data/galleries";
 import CardMeta from "./CardMeta";
-
-const directionLabels = {
-  graphic: "Graphic design direction",
-  branding: "Brand direction",
-};
+import ProjectDetails from "./ProjectDetails";
 
 export default function ImageStudyCard({ item, index, total, kind }) {
   return (
@@ -29,10 +25,7 @@ export default function ImageStudyCard({ item, index, total, kind }) {
           </div>
         </div>
       </div>
-      <div className="case-meta">
-        <span>{directionLabels[kind] ?? "Creative direction"}</span>
-        <strong>Visual capability study</strong>
-      </div>
+      <ProjectDetails item={item} kind={kind} />
     </article>
   );
 }

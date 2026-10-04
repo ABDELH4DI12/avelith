@@ -8,9 +8,9 @@ export default function Studio() {
         <div className="studio-copy">
           <p className="kicker">Why one multidisciplinary studio?</p>
           <h2>
-            Because your audience
-            <br /> doesn’t experience your
-            <br /> brand in departments.
+            A brand is never
+            <br /> experienced through
+            <br /> one medium.
           </h2>
         </div>
         <figure className="studio-visual">
@@ -29,8 +29,10 @@ export default function Studio() {
         </figure>
         <div className="studio-aside">
           <p>
-            They see one logo, one website, one reel, one ad, one interior, one
-            façade. Avelith is built to make those moments feel connected.
+            People encounter a brand through its identity, website, content,
+            campaigns, products and physical spaces. Avelith brings those
+            disciplines together so every touchpoint feels like part of the same
+            world.
           </p>
           <div className="studio-stats">
             <div>
@@ -42,8 +44,8 @@ export default function Studio() {
               <span>visual language</span>
             </div>
             <div>
-              <strong>∞</strong>
-              <span>ways to combine them</span>
+              <strong>03</strong>
+              <span>creative worlds</span>
             </div>
           </div>
         </div>

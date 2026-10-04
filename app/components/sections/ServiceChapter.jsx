@@ -20,7 +20,7 @@ export default function ServiceChapter({ service }) {
             className="chapter-cta"
             href={projectEmailHref(`Avelith ${service.title} project`)}
           >
-            Discuss a {service.title.toLowerCase()} project <span>↗</span>
+            {service.cta} <span>↗</span>
           </a>
           <div className="deliverables">
             {service.deliverables.map((item) => (

@@ -6,19 +6,19 @@ export default function Contact() {
       <div className="contact-orbit orbit-1"></div>
       <div className="contact-orbit orbit-2"></div>
       <div className="contact-inner section-shell">
-        <p className="kicker">Have something ambitious in mind?</p>
+        <p className="kicker">Start a project</p>
         <h2>
-          MAKE IT
+          HAVE AN IDEA
           <br />
-          <em>UNMISSABLE.</em>
+          <em>WORTH BUILDING?</em>
         </h2>
         <p className="contact-intro">
-          Tell us what you’re building. We’ll shape the idea, the experience,
-          and every detail people remember.
+          Whether you have a complete brief or just the beginning of an idea,
+          let’s shape it into something people remember.
         </p>
         <div className="contact-bottom">
           <div className="contact-email-group">
-            <span className="contact-label">PROJECT INQUIRIES</span>
+            <span className="contact-label">START A PROJECT</span>
             <a href={projectEmailHref()} className="contact-mail magnetic">
               {contactEmail} <span>↗</span>
             </a>

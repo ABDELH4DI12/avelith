@@ -49,6 +49,7 @@ export const galleries = {
   websites: [
     {
       variant: "commerce",
+      projectName: "Commerce Story",
       eyebrow: "Digital commerce",
       title: "Turn products into desire.",
       line: "Strategy → UX → Visual system → Conversion",
@@ -56,6 +57,7 @@ export const galleries = {
     },
     {
       variant: "architecture",
+      projectName: "Spatial Narrative",
       eyebrow: "Architecture & interiors",
       title: "Make space feel tangible online.",
       line: "Editorial UX → Immersive imagery → Lead capture",
@@ -63,6 +65,7 @@ export const galleries = {
     },
     {
       variant: "launch",
+      projectName: "Launch Experience",
       eyebrow: "Campaign launch",
       title: "Make the first scroll unforgettable.",
       line: "Storytelling → Motion → Interaction → CTA",
@@ -70,6 +73,7 @@ export const galleries = {
     },
     {
       variant: "portfolio",
+      projectName: "Portfolio Index",
       eyebrow: "Creative portfolio",
       title: "Show the work. Keep the personality.",
       line: "Curation → Case studies → Micro-interactions",
@@ -77,6 +81,7 @@ export const galleries = {
     },
     {
       variant: "saas",
+      projectName: "Product Clarity",
       eyebrow: "Digital product",
       title: "Complex product. Clear experience.",
       line: "Information architecture → UI → Product trust",
@@ -84,6 +89,7 @@ export const galleries = {
     },
     {
       variant: "hospitality",
+      projectName: "Hospitality Story",
       eyebrow: "Luxury hospitality",
       title: "Sell the feeling before the booking.",
       line: "Story → Atmosphere → Reservations → Retention",

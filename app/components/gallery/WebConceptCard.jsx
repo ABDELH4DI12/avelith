@@ -1,4 +1,5 @@
 import CardMeta from "./CardMeta";
+import ProjectDetails from "./ProjectDetails";
 
 const concepts = {
   commerce: {
@@ -12,12 +13,12 @@ const concepts = {
     action: "EXPLORE PROJECT ↗",
   },
   launch: {
-    eyebrow: "CAMPAIGN / 2026",
+    eyebrow: "CAMPAIGN CONCEPT",
     headline: ["MAKE THE", "FIRST SCROLL", "COUNT."],
     action: "ENTER EXPERIENCE ↗",
   },
   portfolio: {
-    eyebrow: "SELECTED WORK",
+    eyebrow: "CONCEPT INDEX",
     headline: ["WORK", "WITH A", "POINT OF VIEW."],
     action: "VIEW INDEX ↗",
   },
@@ -41,7 +42,7 @@ export default function WebConceptCard({ item, index, total }) {
       aria-label={item.title}
     >
       <div className={`case-visual web-concept web-concept--${item.variant}`}>
-        <CardMeta index={index} total={total} badge="Avelith digital concept" />
+        <CardMeta index={index} total={total} badge="Concept Study" />
         <div className="browser-chrome">
           <span />
           <span />
@@ -72,12 +73,7 @@ export default function WebConceptCard({ item, index, total }) {
           </div>
         </div>
       </div>
-      <div className="case-meta">
-        <span>
-          {item.eyebrow} — {item.line}
-        </span>
-        <strong>{item.metric}</strong>
-      </div>
+      <ProjectDetails item={item} kind="websites" />
     </article>
   );
 }

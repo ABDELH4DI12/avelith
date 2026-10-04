@@ -44,14 +44,19 @@ export default function Hero() {
             </figcaption>
           </figure>
           <p>
-            Brand strategy, digital experiences, moving images, social growth,
-            interiors, exteriors and graphic systems — designed as one connected
-            world.
+            Avelith is a multidisciplinary creative studio shaping brands,
+            digital experiences, visuals and spaces through one unified creative
+            direction.
           </p>
-          <a href="#services" className="hero-cta">
-            <span>Explore our services</span>
-            <span aria-hidden="true">↘</span>
-          </a>
+          <div className="hero-actions">
+            <a href="#work" className="hero-cta">
+              <span>Explore our work</span>
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a href="#contact" className="hero-secondary-cta">
+              Start a project <span aria-hidden="true">↗</span>
+            </a>
+          </div>
         </div>
       </div>
 
